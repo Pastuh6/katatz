@@ -39,7 +39,7 @@ func arabs(a int) string {
 	ro := ""
 	o := 0
 	for o < 9 {
-		if a - mk[o] >= 9 {
+		if a - mk[o] >= 0 {
 			a -= mk[o]
 			ro += rimk[mk[o]]
 		} else {
