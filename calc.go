@@ -34,8 +34,8 @@ func rome(r string) int {
 	return arabika
 }
 func arabs(a int) string {
-	rimk := map[int]string{10:"X", 9:"IX", 5:"V", 4:"IV", 1:"I"}//////////////na rimsk
-	mk := [...]int{10, 9, 5, 4, 1}
+	rimk := map[int]string{100: "C", 90: "XC", 50: "L", 40:"XL", 10:"X", 9:"IX", 5:"V", 4:"IV", 1:"I"}//////////////na rimsk
+	mk := [...]int{100, 90, 50, 40, 10, 9, 5, 4, 1}
 	ro := ""
 	o := 0
 	for o < 9 {
